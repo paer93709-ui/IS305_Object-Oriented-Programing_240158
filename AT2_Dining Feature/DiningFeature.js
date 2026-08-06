@@ -3,7 +3,7 @@
 */
 
 const readline = require("readline");
-const MealBooking = require("../MealBooking");
+const MealBooking = require("../at1_diningfeature/MealBooking");
 
 // Store bookings in array
 const bookings = [];
