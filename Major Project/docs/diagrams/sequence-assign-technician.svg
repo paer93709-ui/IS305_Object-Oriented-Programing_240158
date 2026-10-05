@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1181" viewBox="0 0 1700 1181">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#365a7a"/></marker><marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#365a7a" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="850.0" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Sequence ? Review and Assign a Technician</text>
+<text x="850.0" y="68" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526579">Distinction implementation: console delegates business rules and persistence to the manager/repositories</text>
+<rect x="22.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="100.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Service Officer</text>
+<line x1="100.0" y1="136" x2="100.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="272.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="350.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Console App</text>
+<line x1="350.0" y1="136" x2="350.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="522.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="600.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">ServiceRequestManager</text>
+<line x1="600.0" y1="136" x2="600.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="772.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="850.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">ServiceRequest</text>
+<line x1="850.0" y1="136" x2="850.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1022.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1100.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Request Repository</text>
+<line x1="1100.0" y1="136" x2="1100.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1272.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1350.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">History Repository</text>
+<line x1="1350.0" y1="136" x2="1350.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1522.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1600.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Audit Repository</text>
+<line x1="1600.0" y1="136" x2="1600.0" y2="1139" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<line x1="100.0" y1="125" x2="350.0" y2="125" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="225.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Choose request, priority, and technician</text>
+<line x1="350.0" y1="183" x2="600.0" y2="183" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="475.0" y="175.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">reviewRequest(requestId, officerId, priority)</text>
+<line x1="600.0" y1="241" x2="850.0" y2="241" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="725.0" y="233.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Check request status and record Reviewed / priority</text>
+<line x1="850.0" y1="299" x2="600.0" y2="299" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="725.0" y="291.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Updated request</text>
+<line x1="600.0" y1="357" x2="1100.0" y2="357" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="850.0" y="349.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">saveAll(request records)</text>
+<line x1="600.0" y1="415" x2="1350.0" y2="415" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="975.0" y="407.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Persist request history</text>
+<line x1="600.0" y1="473" x2="1600.0" y2="473" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1100.0" y="465.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Audit Request Reviewed / Priority Changed</text>
+<line x1="600.0" y1="531" x2="350.0" y2="531" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="475.0" y="523.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Show review result</text>
+<line x1="100.0" y1="589" x2="350.0" y2="589" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="225.0" y="581.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Assign technician to reviewed request</text>
+<line x1="350.0" y1="647" x2="600.0" y2="647" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="475.0" y="639.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">assignTechnician(requestId, officerId, technicianId)</text>
+<line x1="600.0" y1="705" x2="850.0" y2="705" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="725.0" y="697.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Check officer, technician, and workflow status; assign</text>
+<line x1="850.0" y1="763" x2="600.0" y2="763" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="725.0" y="755.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Updated request</text>
+<line x1="600.0" y1="821" x2="1100.0" y2="821" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="850.0" y="813.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">saveAll(request records)</text>
+<line x1="600.0" y1="879" x2="1350.0" y2="879" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="975.0" y="871.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Persist assignment history</text>
+<line x1="600.0" y1="937" x2="1600.0" y2="937" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1100.0" y="929.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Audit Technician Assigned</text>
+<line x1="600.0" y1="995" x2="350.0" y2="995" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="475.0" y="987.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Show assignment result</text>
+<line x1="350.0" y1="1053" x2="100.0" y2="1053" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="225.0" y="1045.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Confirm technician assignment</text>
+</svg>

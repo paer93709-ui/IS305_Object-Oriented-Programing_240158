@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1320" viewBox="0 0 1900 1320">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#365a7a"/></marker><marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#365a7a" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="950.0" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Distinction Component ? Class Diagram</text>
+<text x="950.0" y="68" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526579">Core domain, inheritance, orchestration, factories, and JSON repository layer</text>
+<text x="35" y="92" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#526579">DOMAIN: USERS</text>
+<text x="35" y="420" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#526579">DOMAIN: SERVICE REQUESTS</text>
+<text x="35" y="835" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#526579">APPLICATION / PERSISTENCE</text>
+<rect x="800" y="112" width="300" height="130" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="800" y="112" width="300" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="950.0" y="133" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">User</text>
+<text x="810" y="161" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- userId, firstName, lastName</text>
+<text x="810" y="180" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- email, userType</text>
+<text x="950.0" y="203" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="810" y="218" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="810" y="237" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ getFullName()</text>
+<text x="810" y="256" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ toJSON()</text>
+<rect x="55" y="265" width="200" height="105" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="55" y="265" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="155.0" y="286" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">StudentRequester</text>
+<text x="65" y="314" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- programme, yearLevel</text>
+<text x="155.0" y="337" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="65" y="352" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ displayInfo()</text>
+<text x="65" y="371" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ toJSON()</text>
+<line x1="155" y1="265" x2="950" y2="242" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="552.5" y="246.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="500" y="265" width="200" height="105" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="500" y="265" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="600.0" y="286" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">StaffRequester</text>
+<text x="510" y="314" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- department</text>
+<text x="600.0" y="337" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="510" y="352" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ displayInfo()</text>
+<text x="510" y="371" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ toJSON()</text>
+<line x1="600" y1="265" x2="950" y2="242" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="775.0" y="246.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="1200" y="265" width="200" height="105" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1200" y="265" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1300.0" y="286" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ServiceOfficer</text>
+<text x="1210" y="314" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- serviceSection</text>
+<text x="1300.0" y="337" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="1210" y="352" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ displayInfo()</text>
+<text x="1210" y="371" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ toJSON()</text>
+<line x1="1300" y1="265" x2="950" y2="242" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="1125.0" y="246.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="1645" y="265" width="200" height="105" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1645" y="265" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1745.0" y="286" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">Technician</text>
+<text x="1655" y="314" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- technicalSpeciality</text>
+<text x="1745.0" y="337" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="1655" y="352" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ displayInfo()</text>
+<text x="1655" y="371" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ toJSON()</text>
+<line x1="1745" y1="265" x2="950" y2="242" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="1347.5" y="246.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="820" y="270" width="260" height="78" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="820" y="270" width="260" height="30" rx="5" fill="#f4f1fb" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="950.0" y="291" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">UserFactory</text>
+<text x="830" y="319" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ createFromData(data)</text>
+<line x1="950" y1="270" x2="950" y2="244" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="950.0" y="251.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">restores</text>
+<rect x="800" y="460" width="300" height="190" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="800" y="460" width="300" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="950.0" y="481" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ServiceRequest</text>
+<text x="810" y="509" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- requestId, requester</text>
+<text x="810" y="528" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- title, description, location</text>
+<text x="810" y="547" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- category, priority, status</text>
+<text x="810" y="566" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- dates, technicianId, history</text>
+<text x="950.0" y="589" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="810" y="604" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="810" y="623" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ workflow actions()</text>
+<text x="810" y="642" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ abstract-style reports()</text>
+<line x1="800" y1="525" x2="1090" y2="220" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="945.0" y="360.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">requester</text>
+<rect x="55" y="675" width="200" height="126" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="55" y="675" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="155.0" y="696" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ICTSupportRequest</text>
+<text x="65" y="724" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- deviceType, systemName</text>
+<text x="65" y="743" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- faultType, networkImpact</text>
+<text x="155.0" y="766" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="65" y="781" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="65" y="800" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ overridden behaviour()</text>
+<line x1="155" y1="675" x2="950" y2="650" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="552.5" y="655.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="500" y="675" width="200" height="126" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="500" y="675" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="600.0" y="696" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">MaintenanceRequest</text>
+<text x="510" y="724" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- building, roomNumber</text>
+<text x="510" y="743" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- hazardLevel, equipment</text>
+<text x="600.0" y="766" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="510" y="781" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="510" y="800" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ overridden behaviour()</text>
+<line x1="600" y1="675" x2="950" y2="650" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="775.0" y="655.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="1200" y="675" width="200" height="126" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1200" y="675" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1300.0" y="696" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">CleaningRequest</text>
+<text x="1210" y="724" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- cleaningArea, hygieneRisk</text>
+<text x="1210" y="743" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- serviceType, preferredTime</text>
+<text x="1300.0" y="766" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="1210" y="781" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="1210" y="800" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ overridden behaviour()</text>
+<line x1="1300" y1="675" x2="950" y2="650" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="1125.0" y="655.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="1645" y="675" width="200" height="126" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1645" y="675" width="200" height="30" rx="5" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1745.0" y="696" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">GeneralServiceRequest</text>
+<text x="1655" y="724" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- additionalNotes</text>
+<text x="1745.0" y="747" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="1655" y="762" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ validate()</text>
+<text x="1655" y="781" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ overridden behaviour()</text>
+<line x1="1745" y1="675" x2="950" y2="650" stroke="#365a7a" stroke-width="1.6" marker-end="url(#openArrow)"/>
+<text x="1347.5" y="655.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">extends</text>
+<rect x="820" y="680" width="260" height="80" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="820" y="680" width="260" height="30" rx="5" fill="#f4f1fb" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="950.0" y="701" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ServiceRequestFactory</text>
+<text x="830" y="729" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ createFromData(data, users, history)</text>
+<line x1="820" y1="720" x2="790" y2="740" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="805.0" y="725.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">creates subclasses</text>
+<rect x="800" y="885" width="300" height="152" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="800" y="885" width="300" height="30" rx="5" fill="#e9f4ec" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="950.0" y="906" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ServiceRequestManager</text>
+<text x="810" y="934" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- users, requests</text>
+<text x="810" y="953" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">- user/request/history/audit repos</text>
+<text x="950.0" y="976" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" fill="#8b9cac">?</text>
+<text x="810" y="991" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ loadAll()</text>
+<text x="810" y="1010" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ role/workflow operations()</text>
+<text x="810" y="1029" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ search / filter / sort()</text>
+<text x="810" y="1048" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ management reports()</text>
+<rect x="65" y="1090" width="290" height="90" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="65" y="1090" width="290" height="30" rx="5" fill="#fff4e6" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="210.0" y="1111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">UserFileRepository</text>
+<text x="75" y="1139" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ loadAll()  + saveAll(records)</text>
+<text x="75" y="1158" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ create()  + findById()</text>
+<rect x="435" y="1090" width="320" height="90" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="435" y="1090" width="320" height="30" rx="5" fill="#fff4e6" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="595.0" y="1111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">ServiceRequestFileRepository</text>
+<text x="445" y="1139" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ loadAll()  + saveAll(records)</text>
+<text x="445" y="1158" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ create()  + findById()</text>
+<rect x="815" y="1090" width="290" height="90" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="815" y="1090" width="290" height="30" rx="5" fill="#fff4e6" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="960.0" y="1111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">RequestHistoryFileRepository</text>
+<text x="825" y="1139" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ loadAll()  + saveAll(records)</text>
+<text x="825" y="1158" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ replaceForRequest()</text>
+<rect x="1165" y="1090" width="250" height="90" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1165" y="1090" width="250" height="30" rx="5" fill="#fff4e6" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1290.0" y="1111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">AuditFileRepository</text>
+<text x="1175" y="1139" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ loadAll()  + saveAll(records)</text>
+<text x="1175" y="1158" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ findByRequestId()</text>
+<rect x="1510" y="1090" width="300" height="90" rx="5" fill="#fff" stroke="#6e8ba5" stroke-width="1.5"/>
+<rect x="1510" y="1090" width="300" height="30" rx="5" fill="#fff4e6" stroke="#6e8ba5" stroke-width="1.5"/>
+<text x="1660.0" y="1111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#17324d">jsonFileStore</text>
+<text x="1520" y="1139" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ readJsonArray(path)</text>
+<text x="1520" y="1158" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#33495d">+ writeJsonArray(path, records)</text>
+<line x1="950" y1="1037" x2="210" y2="1090" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="580.0" y="1058.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">uses</text>
+<line x1="950" y1="1037" x2="595" y2="1090" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="772.5" y="1058.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">uses</text>
+<line x1="950" y1="1037" x2="960" y2="1090" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="955.0" y="1058.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">uses</text>
+<line x1="950" y1="1037" x2="1290" y2="1090" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1120.0" y="1058.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">uses</text>
+<line x1="850" y1="885" x2="950" y2="760" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="900.0" y="817.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">uses factory</text>
+<line x1="1050" y1="885" x2="950" y2="350" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1000.0" y="612.5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">restores users</text>
+<line x1="355" y1="1135" x2="1510" y2="1135" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="932.5" y="1128.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">JSON I/O</text>
+<line x1="740" y1="1135" x2="1510" y2="1135" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1125.0" y="1128.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">JSON I/O</text>
+<line x1="1105" y1="1135" x2="1510" y2="1135" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1307.5" y="1128.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">JSON I/O</text>
+<line x1="1435" y1="1135" x2="1510" y2="1135" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1472.5" y="1128.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">JSON I/O</text>
+<rect x="250" y="1255" width="1400" height="38" rx="6" fill="#f8fafc" stroke="#c2cfda" stroke-width="1.6"/>
+<text x="950.0" y="1279.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#24384b">Solid open arrows: inheritance. Dashed arrows: dependency / restoration. Requests contain a requester; repositories delegate JSON I/O to jsonFileStore.</text>
+</svg>

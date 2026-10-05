@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1167" viewBox="0 0 1900 1167">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#365a7a"/></marker><marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#365a7a" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="950.0" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Sequence ? Resolve and Close a Request</text>
+<text x="950.0" y="68" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526579">Distinction implementation: console delegates business rules and persistence to the manager/repositories</text>
+<rect x="22.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="100.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Technician</text>
+<line x1="100.0" y1="136" x2="100.0" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="264.8571428571429" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="342.8571428571429" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Officer</text>
+<line x1="342.8571428571429" y1="136" x2="342.8571428571429" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="507.7142857142858" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="585.7142857142858" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Console App</text>
+<line x1="585.7142857142858" y1="136" x2="585.7142857142858" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="750.5714285714286" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="828.5714285714286" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">ServiceRequestManager</text>
+<line x1="828.5714285714286" y1="136" x2="828.5714285714286" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="993.4285714285716" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1071.4285714285716" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">ServiceRequest</text>
+<line x1="1071.4285714285716" y1="136" x2="1071.4285714285716" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1236.2857142857142" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1314.2857142857142" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Request Repository</text>
+<line x1="1314.2857142857142" y1="136" x2="1314.2857142857142" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1479.142857142857" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1557.142857142857" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">History Repository</text>
+<line x1="1557.142857142857" y1="136" x2="1557.142857142857" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1722.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1800.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Audit Repository</text>
+<line x1="1800.0" y1="136" x2="1800.0" y2="1125" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<line x1="100.0" y1="125" x2="585.7142857142858" y2="125" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="342.8571428571429" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Enter assigned request ID and resolution note</text>
+<line x1="585.7142857142858" y1="179" x2="828.5714285714286" y2="179" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="707.1428571428571" y="171.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">resolveRequest(requestId, technicianId, comment)</text>
+<line x1="828.5714285714286" y1="233" x2="1071.4285714285716" y2="233" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="950.0" y="225.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Verify assigned technician; transition to Resolved</text>
+<line x1="1071.4285714285716" y1="287" x2="828.5714285714286" y2="287" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="950.0" y="279.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Updated request</text>
+<line x1="828.5714285714286" y1="341" x2="1314.2857142857142" y2="341" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1071.4285714285713" y="333.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Save request</text>
+<line x1="828.5714285714286" y1="395" x2="1557.142857142857" y2="395" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1192.857142857143" y="387.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Persist resolution history</text>
+<line x1="828.5714285714286" y1="449" x2="1800.0" y2="449" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1314.2857142857142" y="441.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Audit Request Resolved</text>
+<line x1="828.5714285714286" y1="503" x2="585.7142857142858" y2="503" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="707.1428571428571" y="495.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Return resolved request</text>
+<line x1="585.7142857142858" y1="557" x2="100.0" y2="557" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="342.8571428571429" y="549.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Confirm resolution</text>
+<line x1="342.8571428571429" y1="611" x2="585.7142857142858" y2="611" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="464.28571428571433" y="603.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Verify resolved request and close it</text>
+<line x1="585.7142857142858" y1="665" x2="828.5714285714286" y2="665" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="707.1428571428571" y="657.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">closeRequest(requestId, officerId, comment)</text>
+<line x1="828.5714285714286" y1="719" x2="1071.4285714285716" y2="719" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="950.0" y="711.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Verify Service Officer and Resolved status; close</text>
+<line x1="1071.4285714285716" y1="773" x2="828.5714285714286" y2="773" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="950.0" y="765.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Updated request</text>
+<line x1="828.5714285714286" y1="827" x2="1314.2857142857142" y2="827" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1071.4285714285713" y="819.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Save request</text>
+<line x1="828.5714285714286" y1="881" x2="1557.142857142857" y2="881" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1192.857142857143" y="873.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Persist closure history</text>
+<line x1="828.5714285714286" y1="935" x2="1800.0" y2="935" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1314.2857142857142" y="927.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Audit Request Closed</text>
+<line x1="828.5714285714286" y1="989" x2="585.7142857142858" y2="989" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="707.1428571428571" y="981.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Return closed request</text>
+<line x1="585.7142857142858" y1="1043" x2="342.8571428571429" y2="1043" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="464.28571428571433" y="1035.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Confirm closure</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="921" viewBox="0 0 1500 921">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#365a7a"/></marker><marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#365a7a" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="750.0" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Sequence ? Submit a Service Request</text>
+<text x="750.0" y="68" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526579">Distinction implementation: console delegates business rules and persistence to the manager/repositories</text>
+<rect x="22.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="100.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Requester</text>
+<line x1="100.0" y1="136" x2="100.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="282.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="360.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Console App</text>
+<line x1="360.0" y1="136" x2="360.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="542.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="620.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">ServiceRequestManager</text>
+<line x1="620.0" y1="136" x2="620.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="802.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="880.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Request Repository</text>
+<line x1="880.0" y1="136" x2="880.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1062.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1140.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">History Repository</text>
+<line x1="1140.0" y1="136" x2="1140.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<rect x="1322.0" y="88" width="156" height="48" rx="7" fill="#e8f1f8" stroke="#6e8ba5" stroke-width="1.6"/>
+<text x="1400.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" fill="#24384b">Audit Repository</text>
+<line x1="1400.0" y1="136" x2="1400.0" y2="879" stroke="#9aaebe" stroke-dasharray="6 6" stroke-width="1.2"/>
+<line x1="100.0" y1="125" x2="360.0" y2="125" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="230.0" y="117.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Enter request details</text>
+<line x1="360.0" y1="191" x2="620.0" y2="191" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="490.0" y="183.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">submitRequest(request)</text>
+<path d="M620.0 257 h34 v22 h-27" fill="none" stroke="#365a7a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="662.0" y="262" text-anchor="start" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#33495d">Validate request; check duplicate ID and registered requester</text>
+<line x1="620.0" y1="323" x2="880.0" y2="323" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="750.0" y="315.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">saveAll(request records)</text>
+<line x1="880.0" y1="389" x2="620.0" y2="389" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="750.0" y="381.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Saved</text>
+<line x1="620.0" y1="455" x2="1140.0" y2="455" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="880.0" y="447.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">replaceForRequest(requestId, history)</text>
+<line x1="1140.0" y1="521" x2="620.0" y2="521" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="880.0" y="513.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Saved</text>
+<line x1="620.0" y1="587" x2="1400.0" y2="587" stroke="#365a7a" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="1010.0" y="579.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">create Request Created audit entry</text>
+<line x1="1400.0" y1="653" x2="620.0" y2="653" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="1010.0" y="645.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Saved</text>
+<line x1="620.0" y1="719" x2="360.0" y2="719" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="490.0" y="711.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Return created request</text>
+<line x1="360.0" y1="785" x2="100.0" y2="785" stroke="#365a7a" stroke-width="1.6" stroke-dasharray="6 4" marker-end="url(#openArrow)"/>
+<text x="230.0" y="777.0" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#526579">Display submission confirmation</text>
+</svg>

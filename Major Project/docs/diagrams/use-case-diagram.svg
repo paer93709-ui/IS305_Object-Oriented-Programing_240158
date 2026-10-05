@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="850" viewBox="0 0 1420 850">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#365a7a"/></marker><marker id="openArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#365a7a" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="710" y="42" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#17324d">Campus Service Request System - Use Cases</text>
+<text x="710" y="68" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" fill="#526579">Use cases reflect the Distinction console application and role permissions</text>
+<rect x="270" y="105" width="875" height="690" rx="16" fill="#fbfdff" stroke="#7d9bb5" stroke-width="2"/>
+<text x="707" y="135" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#17324d">Campus Service Request Management System</text>
+<circle cx="110" cy="210" r="13" fill="#fff" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="223" x2="110" y2="258" stroke="#365a7a" stroke-width="2"/>
+<line x1="91" y1="237" x2="129" y2="237" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="258" x2="94" y2="278" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="258" x2="126" y2="278" stroke="#365a7a" stroke-width="2"/>
+<text x="110" y="302" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24384b">Requester</text>
+<text x="110" y="319" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24384b">(Student / Staff)</text>
+<circle cx="110" cy="445" r="13" fill="#fff" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="458" x2="110" y2="493" stroke="#365a7a" stroke-width="2"/>
+<line x1="91" y1="472" x2="129" y2="472" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="493" x2="94" y2="513" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="493" x2="126" y2="513" stroke="#365a7a" stroke-width="2"/>
+<text x="110" y="537" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24384b">Service Officer</text>
+<circle cx="110" cy="665" r="13" fill="#fff" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="678" x2="110" y2="713" stroke="#365a7a" stroke-width="2"/>
+<line x1="91" y1="692" x2="129" y2="692" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="713" x2="94" y2="733" stroke="#365a7a" stroke-width="2"/>
+<line x1="110" y1="713" x2="126" y2="733" stroke="#365a7a" stroke-width="2"/>
+<text x="110" y="757" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24384b">Technician</text>
+<circle cx="1300" cy="460" r="13" fill="#fff" stroke="#365a7a" stroke-width="2"/>
+<line x1="1300" y1="473" x2="1300" y2="508" stroke="#365a7a" stroke-width="2"/>
+<line x1="1281" y1="487" x2="1319" y2="487" stroke="#365a7a" stroke-width="2"/>
+<line x1="1300" y1="508" x2="1284" y2="528" stroke="#365a7a" stroke-width="2"/>
+<line x1="1300" y1="508" x2="1316" y2="528" stroke="#365a7a" stroke-width="2"/>
+<text x="1300" y="552" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#24384b">System Administrator</text>
+<ellipse cx="410" cy="205" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="410" y="210" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Register account</text>
+<ellipse cx="690" cy="205" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="690" y="210" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Submit service request</text>
+<ellipse cx="970" cy="205" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="970" y="210" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">View / search requests</text>
+<ellipse cx="410" cy="330" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="410" y="335" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Update or cancel own</text>
+<text x="410" y="353" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Submitted request</text>
+<ellipse cx="690" cy="330" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="690" y="335" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Review request and</text>
+<text x="690" y="353" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">set priority</text>
+<ellipse cx="970" cy="330" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="970" y="335" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Assign technician</text>
+<ellipse cx="410" cy="465" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="410" y="470" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Begin work and add</text>
+<text x="410" y="488" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">progress notes</text>
+<ellipse cx="690" cy="465" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="690" y="470" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Resolve request</text>
+<ellipse cx="970" cy="465" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="970" y="470" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Verify and close request</text>
+<ellipse cx="550" cy="620" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="550" y="625" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">View request history</text>
+<ellipse cx="850" cy="620" rx="125" ry="43" fill="#eef5fb" stroke="#7d9bb5" stroke-width="1.5"/>
+<text x="850" y="625" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#24384b">Generate management reports</text>
+<line x1="150" y1="250" x2="285" y2="205" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="250" x2="565" y2="205" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="250" x2="845" y2="205" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="250" x2="285" y2="330" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="485" x2="565" y2="330" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="485" x2="845" y2="330" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="485" x2="845" y2="465" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="700" x2="285" y2="465" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="150" y1="700" x2="565" y2="465" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="1270" y1="495" x2="675" y2="620" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<line x1="1270" y1="495" x2="975" y2="620" stroke="#365a7a" stroke-width="1.5" marker-end="url(#openArrow)"/>
+<rect x="330" y="735" width="760" height="38" rx="6" fill="#fff8e9" stroke="#d6b36b"/><text x="710" y="759" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="13" fill="#24384b">Role checks and permitted status transitions are enforced by ServiceRequestManager / ServiceRequest.</text></svg>
