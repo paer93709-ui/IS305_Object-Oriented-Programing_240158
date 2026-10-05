@@ -1,0 +1,12 @@
+{
+  "name": "campus-service-request-system",
+  "version": "1.0.0",
+  "description": "Campus Service Request Management System - Pass Component (IS305 AT3, Divine Word University)",
+  "main": "CampusServiceApp.js",
+  "scripts": {
+    "start": "node CampusServiceApp.js",
+    "test": "node tests/passTests.js"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
